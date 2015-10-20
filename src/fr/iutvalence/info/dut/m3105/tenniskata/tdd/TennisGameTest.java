@@ -2,6 +2,9 @@ package fr.iutvalence.info.dut.m3105.tenniskata.tdd;
 
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.Test;
 
 public class TennisGameTest {
@@ -25,6 +28,21 @@ public class TennisGameTest {
 		tennisGame.scoreReceiveIncrease();
 		assertEquals(tennisGame.getScore(), "love-fifteen");
 	}
+	
+	@Test
+	public void checkScoreEqualsFifteenAll(){
+		TennisGame  tennisGame = new TennisGame();
+
+	}
+	
+	public void putOurselvesInConditionTest(){
+		List<Score> scores = new ArrayList<>();
+	}
+	
+	public void checkAssertion(){
+		
+	}
+	
 }
 
 
