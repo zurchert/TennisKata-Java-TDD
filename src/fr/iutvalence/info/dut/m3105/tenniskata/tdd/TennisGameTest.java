@@ -7,10 +7,10 @@ import org.junit.Test;
 public class TennisGameTest {
 	
 	@Test
-	public void gamesTest(){
+	public void checkScoreEqualsZero(){
 		TennisGame  tG = new TennisGame();
 		assertEquals(tG.getScore(), "love-all");
 	}
 	
-	
+
 }
