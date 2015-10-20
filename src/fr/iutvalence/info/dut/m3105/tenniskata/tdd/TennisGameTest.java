@@ -8,9 +8,16 @@ public class TennisGameTest {
 	
 	@Test
 	public void checkScoreEqualsZero(){
-		TennisGame  tG = new TennisGame();
-		assertEquals(tG.getScore(), "love-all");
+		TennisGame  tennisGame = new TennisGame();
+		assertEquals(tennisGame.getScore(), "love-all");
 	}
 	
-
+	@Test
+	public void checkScoreEqualsFifteenLove(){
+		TennisGame  tennisGame = new TennisGame();
+		tennisGame.scoreServerIncrease();
+		assertEquals(tennisGame.getScore(), "fifteen-love");
+	}
 }
+
+

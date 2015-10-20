@@ -7,5 +7,4 @@ public class TennisGame
 		return "love-all";
 	}
 	
-
 }
